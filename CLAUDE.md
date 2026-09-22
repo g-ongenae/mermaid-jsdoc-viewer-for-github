@@ -1,4 +1,4 @@
-# CLAUDE.md — GitHub Mermaid JSDoc Viewer
+# CLAUDE.md — Mermaid JSDoc Viewer for GitHub
 
 ## What this is
 
@@ -78,6 +78,7 @@ Deliberately the same SVG as [`mermaid-jsdoc-viewer`](https://github.com/g-ongen
 
 ## Things to watch out for
 
+- The extension was originally named "GitHub Mermaid JSDoc Viewer" and was removed from the Chrome Web Store in September 2026 over a GITHUB trademark complaint (leading with the trademark in the title). It was renamed to "Mermaid JSDoc Viewer for GitHub" (descriptive/compatibility use, trademark not leading) and a "not affiliated with GitHub or Mermaid" disclaimer was added to `README.md` and `PRIVACY.md`. Don't reintroduce "GitHub"/"Mermaid" as a leading/prominent term in the extension name, and don't drop the disclaimer.
 - DOM/payload assumptions rely on GitHub's internal structure and have already changed once (see "Verifying selector changes" above) — these can break again when GitHub ships UI changes. The functions to patch are called out in the README's "How it works" section and are kept isolated for that reason.
 - On diff pages, a mermaid block whose fence lines sit outside the currently-expanded diff context won't be detected (by design — see "Scope / limitations" in the README); the enclosing `/**` line may be out of view, but both fences must be visible. This bites on commit pages more than expected: a diff that only edits the diagram _body_ has the ` * ```mermaid` opener one line above the hunk, so no badge appears until the user expands context upward. The embedded `commitRoute.diffEntryData[].diffLines` payload only holds the hunk lines too, so there's no local source for the hidden opener. Only the unified diff view is supported, not split view.
 - A saved page whose diff tables haven't been hydrated yet (e.g. "Save Page As → HTML only" taken before React rendered the rows) contains the diff only as JSON in `script[data-target="react-app.embeddedData"]` → `payload.pullRequestsChangesRoute.diffContents[].diffLines` (`{type, left, right, text}`), and only for the first few files — the rest are lazy-loaded. That's useful for checking which lines a hunk contains, but useless for verifying DOM selectors; use DevTools "Copy outerHTML" on the hydrated page for those.

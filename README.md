@@ -1,6 +1,8 @@
-# GitHub Mermaid JSDoc Viewer
+# Mermaid JSDoc Viewer for GitHub
 
 A browser (Chrome, Firefox & Safari) extension that finds [Mermaid](https://mermaid.js.org/) diagrams inside JSDoc comments while you browse source files on GitHub, and lets you preview them inline or open them in the full [Mermaid Live](https://mermaid.live) editor.
+
+This is an independent, third-party project. It is not affiliated with, endorsed by, or sponsored by GitHub, Inc. or the Mermaid project — "GitHub" and "Mermaid" are used here only to describe what the extension works with.
 
 No GitHub login required. No data collected. The only network requests are to `mermaid.ink` (for the inline preview image) and `mermaid.live` (when you click "Open in Mermaid Live" from the preview), and both happen only when you click — see [PRIVACY.md](./PRIVACY.md).
 
@@ -104,7 +106,7 @@ Safari supports WebExtensions through Apple's converter tool. You need a Mac wit
    ```
 5. Xcode opens automatically with the generated project — click **Build** (⌘B)
 6. Open Safari and go to **Safari → Settings → Extensions**
-7. Enable **GitHub Mermaid JSDoc Viewer**
+7. Enable **Mermaid JSDoc Viewer for GitHub**
 
 > Safari may show a warning that the extension is unsigned. To allow it, enable **Develop → Allow Unsigned Extensions** from the menu bar (this must be re-enabled after each Safari restart). The **Develop** menu can be turned on in **Safari → Settings → Advanced → Show features for web developers**.
 

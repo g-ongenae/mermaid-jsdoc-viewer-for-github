@@ -1,8 +1,10 @@
-# Privacy Policy — GitHub Mermaid JSDoc Viewer
+# Privacy Policy — Mermaid JSDoc Viewer for GitHub
 
-_Last updated: 2026-09-03_
+_Last updated: 2026-09-22_
 
-GitHub Mermaid JSDoc Viewer is a browser extension that finds ` ```mermaid ` fenced code blocks (inside JSDoc comments in JS/TS files, or as plain fences in Markdown files) on the GitHub page you are viewing, and shows a small badge next to the line number that lets you preview the diagram or open it in the Mermaid Live editor.
+Mermaid JSDoc Viewer for GitHub is a browser extension that finds ` ```mermaid ` fenced code blocks (inside JSDoc comments in JS/TS files, or as plain fences in Markdown files) on the GitHub page you are viewing, and shows a small badge next to the line number that lets you preview the diagram or open it in the Mermaid Live editor.
+
+This is an independent, third-party project. It is not affiliated with, endorsed by, or sponsored by GitHub, Inc. or the Mermaid project (mermaid.js.org).
 
 ## Data collection
 
@@ -44,3 +46,5 @@ The extension bundles one open-source library, [pako](https://github.com/nodeca/
 ## Changes and contact
 
 Changes to this policy are tracked in the project's Git history. Questions: open an issue at <https://github.com/g-ongenae/github-mermaid-jsdoc-viewer/issues>.
+
+"GitHub" and "Mermaid" are trademarks of their respective owners; their use here is solely to describe compatibility and does not imply any affiliation, sponsorship, or endorsement.
