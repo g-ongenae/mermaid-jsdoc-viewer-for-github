@@ -47,7 +47,7 @@ Permissions required: **none**. The content script is declared for `https://gith
 ## Installation
 
 - Install on Chrome: [Chrome Web Store](https://chromewebstore.google.com/detail/github-mermaid-jsdoc-view/jhkfjpfhioaoopiapaipleecedggpimi)
-- Install on Firefox: [Firefox Addons](https://addons.mozilla.org/fr/firefox/addon/github-mermaid-jsdoc-viewer/)
+- Install on Firefox: [Firefox Addons](https://addons.mozilla.org/fr/firefox/addon/mermaid-jsdoc-viewer-for-githu/)
 
 ## Build
 
