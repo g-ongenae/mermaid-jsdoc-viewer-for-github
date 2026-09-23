@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Mermaid JSDoc Viewer for GitHub",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open and preview Mermaid diagrams found in JSDoc comments while browsing source files on GitHub.",
   "homepage_url": "https://github.com/g-ongenae/mermaid-jsdoc-viewer-for-github",
   "icons": {
