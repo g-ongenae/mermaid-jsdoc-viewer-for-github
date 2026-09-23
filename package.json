@@ -1,5 +1,5 @@
 {
-  "name": "github-mermaid-jsdoc-viewer",
+  "name": "mermaid-jsdoc-viewer-for-github",
   "version": "1.0.0",
   "description": "A browser extension that finds Mermaid diagrams inside JSDoc comments while browsing source files on GitHub, and lets you preview or open them in the Mermaid Live editor. Independent project, not affiliated with GitHub or Mermaid.",
   "private": true,
@@ -7,12 +7,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/g-ongenae/github-mermaid-jsdoc-viewer.git"
+    "url": "https://github.com/g-ongenae/mermaid-jsdoc-viewer-for-github.git"
   },
   "bugs": {
-    "url": "https://github.com/g-ongenae/github-mermaid-jsdoc-viewer/issues"
+    "url": "https://github.com/g-ongenae/mermaid-jsdoc-viewer-for-github/issues"
   },
-  "homepage": "https://github.com/g-ongenae/github-mermaid-jsdoc-viewer#readme",
+  "homepage": "https://github.com/g-ongenae/mermaid-jsdoc-viewer-for-github#readme",
   "engines": {
     "node": ">=26"
   },

@@ -102,7 +102,7 @@ Safari supports WebExtensions through Apple's converter tool. You need a Mac wit
 3. `cp manifest.chrome.json manifest.json`
 4. Run the converter:
    ```bash
-   xcrun safari-web-extension-converter /path/to/github-mermaid-jsdoc-viewer --project-location ./safari-extension
+   xcrun safari-web-extension-converter /path/to/mermaid-jsdoc-viewer-for-github --project-location ./safari-extension
    ```
 5. Xcode opens automatically with the generated project — click **Build** (⌘B)
 6. Open Safari and go to **Safari → Settings → Extensions**
@@ -148,7 +148,7 @@ Run `npm install` first so `pako_deflate.min.js` and `PAKO_LICENSE` exist to inc
 ## Project structure
 
 ```
-github-mermaid-jsdoc-viewer/
+mermaid-jsdoc-viewer-for-github/
 ├── manifest.firefox.json   # Firefox manifest (V2)
 ├── manifest.chrome.json    # Chrome/Edge/Brave manifest (V3)
 ├── content_script.js       # Parsing, DOM scan, injection, preview modal
